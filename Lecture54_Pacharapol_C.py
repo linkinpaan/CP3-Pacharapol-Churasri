@@ -5,13 +5,11 @@ def login():
         usernameinput = input("username : ")
         pwinput = input("password : ")
     selectMenu()
-
 def selectMenu():
     print("----My Shop---")
     print("1. Vat calculator")
     print("2. Price calculator")
     menuList()
-
 def menuList():
     userselect = 0
     while userselect !=1 and userselect !=2 :
